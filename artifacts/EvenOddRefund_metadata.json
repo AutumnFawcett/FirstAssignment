@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "processNumber",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Assignment Contract.sol": "EvenOddRefund"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Assignment Contract.sol": {
+			"keccak256": "0xbee75c2afafe26f2ac5d53f7c8b7dd48dac58873f55b9128f9c234cefc0c2594",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://42820aa7e7d33107b8d3121ec63b18c358a2db8d02764927d02a28ed726ce651",
+				"dweb:/ipfs/QmSKwNTCcGBgmXH4mwDmCZuxCc8DKf4EabkdLeiSk4a31x"
+			]
+		}
+	},
+	"version": 1
+}
